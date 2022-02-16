@@ -1,0 +1,17 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": ["eslint:recommended", "prettier"],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        // 선언되고 사용되지 않은 변수에 대해 경고 처리
+        "no-unused-vars" : "warn",
+        // 콘솔 사용금지 해제
+        "no-console":"off"
+    }
+}
